@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MobileCloud</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_exit">Exit</string>
+    <string name="txt_idle">Idle</string>
+    <string name="txt_server_calculation">Server Calculation</string>
+    <string name="txt_local_calculation">Local Calculation</string>
+    <string name="txt_prime_number_time">Prime Number - Time</string>
+    <string name="txt_completed">Completed</string>
+</resources>

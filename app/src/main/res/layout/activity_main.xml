@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dip"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_start"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dip"
+            android:text="@string/txt_idle"
+            android:textSize="24.5sp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_exit"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:text="@string/txt_local_calculation"
+            android:layout_marginTop="40dp"
+            android:textSize="24.5sp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:text= "@string/txt_prime_number_time"
+            android:textSize="18sp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:text="@string/txt_server_calculation"
+            android:layout_marginTop="20dp"
+            android:textSize="24.5sp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/server"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:text="@string/txt_prime_number_time"
+            android:textSize="18sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>
